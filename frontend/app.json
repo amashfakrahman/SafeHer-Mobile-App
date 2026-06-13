@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "SafeHer",
+    "slug": "safeher-women-safety-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "safeher",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#F92A2A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safeher.app",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ],
+        "NSLocationWhenInUseUsageDescription": "SafeHer uses your location to send SOS alerts and show nearby help centers.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "SafeHer uses background location while live sharing is active so trusted contacts can follow your route during emergencies.",
+        "NSPhotoLibraryUsageDescription": "SafeHer needs photo access so you can attach incident evidence.",
+        "NSCameraUsageDescription": "SafeHer uses the camera so you can save visual evidence in your private vault.",
+        "NSMicrophoneUsageDescription": "SafeHer uses the microphone so you can save audio evidence in your private vault.",
+        "NSFaceIDUsageDescription": "SafeHer uses Face ID or Touch ID to protect your private evidence vault."
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.safeher.app",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_BACKGROUND_LOCATION",
+        "RECORD_AUDIO",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-image-picker",
+      "expo-location",
+      "expo-secure-store",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "Allow SafeHer to record private evidence audio.",
+          "enableBackgroundRecording": false
+        }
+      ]
+    ]
+  }
+}
