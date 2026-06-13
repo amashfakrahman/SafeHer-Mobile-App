@@ -3,7 +3,7 @@
 SafeHer is a full-stack women-safety mobile application with an Expo React Native frontend, an Express API, and a SQLite data layer. This upgraded version keeps the original feature set intact and refines it into a cleaner, safer, more reliable launch-ready foundation.
 
 ## App Screenshots
- ![Image Alt]([image_url](https://github.com/amashfakrahman/SafeHer-Mobile-App/blob/main/Picture/WhatsApp%20Image%202026-06-12%20at%2011.15.32%20PM.jpeg))
+ ![Image Alt]([[image_url](https://github.com/amashfakrahman/SafeHer-Mobile-App/blob/main/Picture/WhatsApp%20Image%202026-06-12%20at%2011.15.32%20PM.jpeg)](https://github.com/amashfakrahman/SafeHer-Mobile-App/blob/c4758be24111b9451270b1ac2c3ba294eacecd37/Picture/WhatsApp%20Image%202026-06-12%20at%2011.15.32%20PM.jpeg))
 
 ## What is included
 
